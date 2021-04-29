@@ -7,10 +7,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 500px;
-    height: 250px;
+    width: 35%;
+    height: 30%;
     display: grid;
-    grid-template-columns: auto 150px 150px auto;
+    grid-template-columns: auto 35px auto 150px auto;
     grid-gap: 3px;
 }
 font{
@@ -42,13 +42,14 @@ div{
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 2;
+    grid-column-end: 4;
     
 }
 #d3{
     background-color:  rgba(255, 102, 0, 0.918);
     grid-row-start: 1;
     grid-row-end: 5;
-    grid-column-start: 3;
+    grid-column-start: 4;
     
 }
 #d4{
@@ -63,17 +64,16 @@ div{
 #d7{
     background-color:  rgba(19, 218, 52, 0.87);
 }
-#d89{
-    display: grid;
-    grid-template-columns: 35px auto;
-    grid-column-gap: 3px;
-}
+
 #d8{
-    background-color:  rgba(8, 141, 19, 0.87);
+    background-color:  rgba(15, 134, 21, 0.794);
+    grid-column-start: 2;
+    grid-column-end: 3;
    
 }
 #d9{
     background-color:  rgba(16, 208, 233, 0.87);
+    grid-column-start: 3;
 }
 #d10{
     background-color:  rgba(21, 196, 88, 0.87);
@@ -81,7 +81,7 @@ div{
 #d11{
     background-color:  rgba(76, 0, 255, 0.87);
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 #d12{
     background-color:  rgba(255, 0, 0, 0.87);
