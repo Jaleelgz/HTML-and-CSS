@@ -3,3 +3,65 @@
     margin: 0px;
     box-sizing: border-box;
 }
+h3{
+    text-align: center;
+    margin: 30px;
+}
+.col{
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: rgba(149, 151, 151, 0.568);
+    position: relative;
+
+    
+}
+button{
+    background-color: rgb(117, 12, 12);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    text-align: center;
+}
+
+.about{
+    margin: 10px 5px 10px 5px;
+}
+
+@media only screen and (max-width:600px){
+    .col{
+        width: 100%;
+    }
+    body{
+        background-color: aqua;
+    }
+    
+
+}
+@media only screen and (min-width:600px){
+    .menu{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .col-3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    body{
+        background-color: rgb(251, 255, 0);
+    }
+    
+}
+@media only screen and (min-width:768px){
+    .menu{
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }
+    body{
+        background-color: rgb(153, 0, 255);
+    }
+}
