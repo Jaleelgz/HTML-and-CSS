@@ -8,6 +8,7 @@ body{
     font-family: sans-serif;
 }
 .menu{
+   
     padding: 0 10px 30px 16px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
@@ -33,6 +34,7 @@ body{
     letter-spacing: 5px;
 }
 .food-items{
+    margin-right: 15px;
     display: grid;
     position: relative;
     grid-template-rows: auto 1fr;
