@@ -187,6 +187,12 @@ ul{
     padding-top: 60px;
     text-align: center;
 }
+.editContent>h1{
+    font-size: 22px;
+    color: gray;
+    margin-bottom: 30px;
+    
+}
 .hr{
     display: flex;
     margin: 5px auto 5px auto;
@@ -199,7 +205,7 @@ ul{
     margin: 0 5px 0 5px;
 
 }
-.fa-star{
+.hr>.fa-star{
     margin-top: -8px;
     color: gray;
 
@@ -211,18 +217,23 @@ ul{
 .products{
     background-color: #fff;
     padding: 20px 40px;
+    
+}
+.pcont{
+    margin: 0 auto 0 auto;
+    width: 90%;
 
 }
 .p{
-    border: black 1px solid;
+    border: gray 0.3px solid;
     text-align: center;
     margin: 5px 10px;
 }
 .p>.img{
     background-position: top;
     background-size: cover;
-    width: 80%;
-    height: 150px;
+    width: 90%;
+    height: 300px;
     margin: 10px auto 10px auto;
 }
 .p1>.img{
@@ -240,10 +251,181 @@ ul{
 .p>hr{
     width: 85%;
     margin: 10px auto 10px auto;
+    opacity: 0.4;
+}
+.p>.pname{
+    margin: 20px auto 20px auto;
+}
+.p>.price{
+    margin: 10px auto 10px auto;
+}
+
+/* box star */
+
+.box{
+    background-color: #00bba4;
+    display: flex;
+    width: 330px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px auto;
+    position: relative;
+}
+.box>.boxtxt{
+    margin: 0 10px;
+}
+.box>.boxstar{
+    color: #fff;
+    height: 100%;
+    background-color: rgb(4, 95, 95);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.boxstar>.fa-star{
+    animation:3s starround infinite linear;
+   
+
+
+}
+@keyframes starround{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 
+/* support */
+.support{
+    margin-top: 30px;
+    text-align: center;
+}
+.support>.pcont>.cont-2{
+    border: 0.5px gray solid;
+    
+}
+.support>.pcont>.cont-2>.cont2-para{
+   text-align: left;
+    
+}
 
+.pround{
+    background-color: #fff;
+    margin-top: -70px;
+}
+.pround>.fa{
+    color: #00bba4;
+}
+.cont-2>a{
+    color: rgba(0, 47, 255, 0.527);
+}
+
+
+/*   awesome support  */
+.container00{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#propic{
+    background-image: url(avatar2.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px auto 20px auto;
+
+}
+.container01{
+    text-align: center;
+    width: 70%;
+}
+.container01>h1{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.container01>p,.container01>i{
+    color: gray;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+
+/* boxes */
+
+
+.boxgreen{
+    height: 150px;
+    background-color: #00bba4;
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxgreen>#wow{
+    height: 50px;
+    border: white 0.5px solid;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+.blackbox{
+    background-color: black;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackbox>.innerbox{}
+.innerbox>.social{
+    display: flex;
+}
+.social>div{
+    margin: 5px;
+    border: 0.5px solid white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox>p{
+    text-align: center;
+
+}
+.adcont{
+    width: 100%;
+}
+
+#ad{
+    background-image: url(elegantthemes-900x120.jpg);
+    height: 110px;
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 70px auto 10px auto;
+}
 
 
 
@@ -292,5 +474,5 @@ ul{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container2{display: flex;}
-    .products{display: flex;}
+    .pcont{display: flex;}
   } 
