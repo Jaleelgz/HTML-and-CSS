@@ -32,25 +32,30 @@ nav{
     position: absolute;
     top: 50%;
     left: 0;
+    width: 30%;
     transform: translate(0%,-50%);
     align-items: center;
     font-size: 28px;
     color: #3D566E;
     font-weight: 700;
+
     
 }
+
 ul{
     margin: 0;
-    float: right;
     padding: 0;
     position: absolute;
     top: 50%;
     right: 0;
+    width: auto;
+    float: right;
     transform: translate(0%,-50%);
-    box-sizing: content-box;
 }
 ul li{
     display: inline;
+   
+    
 }
 .tabs{
     list-style: none;
@@ -321,7 +326,9 @@ ul li{
 }
 
 /* box star */
-
+#mainbox{
+   
+}
 .box{
     background-color: #00bba4;
     display: flex;
@@ -334,22 +341,24 @@ ul li{
     font-size: 20px;
     font-weight: 600;
     margin: 10px auto;
-    position: relative;
+    overflow: hidden;
 }
 .box>.boxtxt{
     margin: 0 10px;
+    width: 80%;
+    float: left;
 }
 .box>.boxstar{
     color: #fff;
     height: 100%;
     background-color: rgb(4, 95, 95);
-    width: 50px;
+    width: 20%;
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
+   
+    
     
 }
 .boxstar>.fa-star{
@@ -439,12 +448,24 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
-.boxgreen>#wow{
+
+#wow{
     height: 50px;
     border: white 0.5px solid;
     margin-left: 10px;
     padding: 10px;
+    overflow: hidden;
+    display: flex;
+    float: right;
+}
+#wow>h6{
+    font-weight: 200;
+    margin: 5px 5px 0 5px;
+}
+.boxgreencont{
+    margin: auto;
 }
 
 
@@ -515,9 +536,10 @@ ul li{
   nav{
       height: 100px;
   }
+ 
 }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 600px )and (max-width : 767px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -531,6 +553,24 @@ ul li{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    #logo{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      ul{
+        position: absolute;
+        top: 80%;
+        left: 0%;
+        transform: translate(0%,-50%);
+        width: auto;
+
+      }
+      nav{
+          height: 100px;
+      }
+   
     
   }
   
