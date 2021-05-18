@@ -67,8 +67,8 @@ ul li{
 
 /* copied */
 #showcase{
-    background: url(background.png);
-    background-position: center right;
+    background: url(background1.jpg);
+    background-size: cover;
     min-height: 500px;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -83,6 +83,20 @@ ul li{
     line-height: 1.6em;
     padding-top: 30px;
     text-align: center;
+    font-weight: 900;
+    text-shadow:3px 5px 5px rgba(54, 54, 54, 0.699);
+    
+}
+#showcase h3{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.6em;
+    font-weight: 100;
+}
+#showcase>.container>#h11{
+    text-transform: uppercase;
+
 }
 .container{
     width: 80%;
