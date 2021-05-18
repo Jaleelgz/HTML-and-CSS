@@ -12,7 +12,7 @@ body{
 nav{
     top: 0;
     left: 0;
-    position: sticky;
+    position: fixed;
     width: 100%;
     height: 70px;
     background-color: rgb(253, 255, 254);
@@ -23,8 +23,9 @@ nav{
 
 #navigation{
     position: relative;
-    width: 100%;
     height: 100%;
+    margin: auto;
+    overflow: hidden;
     
 }
 #logo{
@@ -39,14 +40,17 @@ nav{
     
 }
 ul{
-    display: flex;
     margin: 0;
     float: right;
+    padding: 0;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(0%,-50%);
     box-sizing: content-box;
+}
+ul li{
+    display: inline;
 }
 .tabs{
     list-style: none;
@@ -54,12 +58,40 @@ ul{
 .tabs>a{
     text-decoration: none;
     color: #3D566E;
-    padding: 26px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
     font-weight: bold;
     box-sizing: content-box;
 }
 
-/*  Big image    */
+/* copied */
+#showcase{
+    background: url(background.png);
+    background-position: center right;
+    min-height: 500px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 40px auto 40px auto;
+    overflow: hidden;
+}
+
+
+/*  Big image    
 
 #big-image{
     margin-top: auto;
@@ -67,15 +99,26 @@ ul{
     background-position: center right;
     min-height: 500px;
     text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#main-text{
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#big-image>.container>#h11{
     color: #fff;
     font-size: 60px;
-    line-height: 90px;
     font-weight: 900;
     text-transform: uppercase;
     animation: maintxtanim ease 1 3s;
+    line-height: 1.6em;
+    padding-top: 30px
    
 }
 @keyframes maintxtanim{
@@ -87,7 +130,7 @@ ul{
     }
 }
 
-#sub-text{
+#h22{
     color: #fff;
     font-size: 60px;
     line-height: 90px;
@@ -105,11 +148,12 @@ ul{
 
 .bigimg-container{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
     animation: textanim ease 1 3s;
+   
 }
 @keyframes textanim{
     0%{
@@ -120,7 +164,7 @@ ul{
         opacity: 1;
     }
 }
-
+*/
 
 /* container 2 */
 .container-2{
@@ -453,6 +497,9 @@ ul{
     top: 80%;
     left: 0%;
     transform: translate(0%,-50%);
+  }
+  nav{
+      height: 100px;
   }
 }
   
