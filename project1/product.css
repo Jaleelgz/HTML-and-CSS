@@ -1,15 +1,11 @@
 .productcontainer{
     width: 100%;
-    background-color: bisque;
-    display: grid;
-    grid-area: 10px;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 80px 150px auto;
+    
+    
 }
 .containerinifinity{
+    padding: 10px 0 10px 0;
     border: 0.5px #000 solid;
-    background-color: aquamarine;
-    width: 70%;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -21,18 +17,24 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-color: aqua;
+    text-align: center;
+    
 }
 .purchasedetails{
     border: 0.5px #000 solid;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
+}
+.combo{
+    margin: 10px 0 10px 0;
 }
 .containerblock{
     width: 90%;
     margin: auto;
-    background-color: rgb(66, 162, 241);
+    
 }
 .containerblock>.img{
     background-image: url(product3.jpg);
@@ -121,5 +123,11 @@
        .col-12 {width: 100%;}
        .container2{display: flex;}
        .pcont{display: flex;}
+       .productcontainer{
+        display: grid;
+        grid-area: 10px;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 50px 250px auto;
+       }
      } 
    
