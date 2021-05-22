@@ -69,6 +69,9 @@ ul li{
     font-weight: bold;
     box-sizing: content-box;
 }
+.tabs>a:hover{
+    color: #00bba4;
+}
 
 /* copied */
 #showcase{
@@ -84,7 +87,8 @@ ul li{
 
 #showcase h1{
     color: #fff;
-    font-size: 50px;
+    font-size: 75px;
+    font-family: Dosis;
     line-height: 1.6em;
     padding-top: 30px;
     text-align: center;
@@ -124,44 +128,38 @@ ul li{
 
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
+*/
 
 #big-image>.container>#h11{
-    color: #fff;
-    font-size: 60px;
-    font-weight: 900;
-    text-transform: uppercase;
     animation: maintxtanim ease 1 3s;
-    line-height: 1.6em;
-    padding-top: 30px
+    
+    
    
 }
 @keyframes maintxtanim{
     from{
         margin-top: -50px;
+        opacity: 0;
     }
     to{
         margin-top: 0px;
+        opacity: 1;
     }
 }
 
 #h22{
-    color: #fff;
-    font-size: 60px;
-    line-height: 90px;
-    font-weight: 300;
     animation: subtxtanim ease 1 2s;
+    animation-play-state: running;
+    
 }
 @keyframes subtxtanim{
     from{
         margin-top: 200px;
+        opacity: 0;
     }
     to{
         margin-top: 0px;
+        opacity: 1;
     }
 }
 
@@ -183,7 +181,7 @@ ul li{
         opacity: 1;
     }
 }
-*/
+
 
 /* container 2 */
 .container-2{
@@ -300,6 +298,22 @@ ul li{
     width: 90%;
     height: 300px;
     margin: 10px auto 10px auto;
+   
+}
+.imgcontainer{
+
+    height: 100%;
+   display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #00bba4;
+
+}
+.imgcontainer:hover{
+    
+}
+.imgitems{
+    width: 80%;
 }
 .p1>.img{
     background-image: url(product1-1.jpg);
@@ -360,6 +374,9 @@ ul li{
    
     
     
+}
+.box:hover{
+    opacity: 0.7;
 }
 .boxstar>.fa-star{
     animation:3s starround infinite linear;
@@ -439,38 +456,48 @@ ul li{
 /* boxes */
 
 
-.boxgreen{
-    height: 150px;
+.content-block{
+    min-height: 150px;
     background-color: #00bba4;
     color: #fff;
-    font-size: 30px;
-    font-weight: lighter;
-    display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+   
 }
+.greencont{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    
 
+}
+.greencont h1{
+  
+  font-weight: 300;
+    line-height: 1.6em;
+}
 #wow{
     height: 50px;
     border: white 0.5px solid;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 10px;
     overflow: hidden;
-    display: flex;
-    float: right;
 }
-#wow>h6{
+#wow{
     font-weight: 200;
-    margin: 5px 5px 0 5px;
-}
-.boxgreencont{
-    margin: auto;
+    
 }
 
 
 .blackbox{
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     height: 200px;
     color: #fff;
     display: flex;
@@ -481,6 +508,22 @@ ul li{
 .blackbox>.innerbox{}
 .innerbox>.social{
     display: flex;
+}
+
+.headp{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.pcombo{
+    margin-top: 5px;
+    color: #999;
+font-size: 14px;
+}
+.temp>a{
+    text-decoration: none;
+    color: #00bbae;
 }
 .social>div{
     margin: 5px;
