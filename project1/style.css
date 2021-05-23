@@ -290,7 +290,8 @@ ul li{
 .p{
     border: gray 0.3px solid;
     text-align: center;
-    margin: 5px 10px;
+    margin-top: 10px;
+    
 }
 .p>.img{
     background-position: top;
@@ -633,4 +634,5 @@ font-size: 14px;
     .col-12 {width: 100%;}
     .container2{display: flex;}
     .pcont{display: flex;}
+    .p{margin: 10px 10px;}
   } 
