@@ -18,6 +18,8 @@ nav{
     background-color: rgb(253, 255, 254);
     box-shadow: 0 10px 10px rgba(54, 54, 54, 0.699);
     padding: 0 7% 0 7%;
+    font-family: Dosis;
+    font-weight: 700 !important;
 }
 
 
@@ -37,7 +39,7 @@ nav{
     align-items: center;
     font-size: 28px;
     color: #3D566E;
-    font-weight: 700;
+    font-weight: bold;
 
     
 }
@@ -85,14 +87,14 @@ ul li{
     align-items: center;
 }
 
-#showcase h1{
+#showcase .h1{
     color: #fff;
     font-size: 75px;
     font-family: Dosis;
     line-height: 90px;
     padding-top: 30px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 700 !important;
     text-shadow:3px 5px 5px rgba(54, 54, 54, 0.699);
     
 }
