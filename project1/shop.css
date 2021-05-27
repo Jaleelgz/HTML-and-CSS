@@ -4,6 +4,10 @@
 #showcase h1{
     font-size: 40px;
     font-weight: 100 !important;
+    color: #fff;
+    line-height: 90px;
+    text-align: center;
+    text-shadow:3px 5px 5px rgba(54, 54, 54, 0.699);
 }
 .p4>.img{
     background-image: url(product1.jpg);
@@ -38,7 +42,10 @@
        left: 0%;
        transform: translate(0%,-50%);
        text-align: center;
+       max-width: 100%;
+       
      }
+     
      nav{
          height: 100px;
      }
