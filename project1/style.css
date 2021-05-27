@@ -136,7 +136,7 @@ ul li{
     
    
 }
-@keyframes maintxtanim{
+/*@keyframes maintxtanim{
     from{
         margin-top: -50px;
         opacity: 0;
@@ -145,14 +145,14 @@ ul li{
         margin-top: 0px;
         opacity: 1;
     }
-}
+}*/
 
 #h22{
     animation: subtxtanim ease 1 2s;
     animation-play-state: running;
     
 }
-@keyframes subtxtanim{
+/*@keyframes subtxtanim{
     from{
         margin-top: 200px;
         opacity: 0;
@@ -161,7 +161,7 @@ ul li{
         margin-top: 0px;
         opacity: 1;
     }
-}
+}*/
 
 .bigimg-container{
     position: absolute;
@@ -172,7 +172,7 @@ ul li{
     animation: textanim ease 1 3s;
    
 }
-@keyframes textanim{
+/*@keyframes textanim{
     0%{
         opacity: 0;
     }
@@ -180,7 +180,7 @@ ul li{
     100%{
         opacity: 1;
     }
-}
+}*/
 
 
 /* container 2 */
@@ -284,7 +284,7 @@ ul li{
 }
 .pcont{
     margin: 0 auto 0 auto;
-    width: 90%;
+    width: 100%;
 
 }
 .p{
@@ -614,6 +614,9 @@ font-size: 14px;
       nav{
           height: 100px;
       }
+      .container-2{
+        margin-top: 0;
+    }
    
     
   }
