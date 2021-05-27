@@ -89,19 +89,20 @@ ul li{
     color: #fff;
     font-size: 75px;
     font-family: Dosis;
-    line-height: 1.6em;
+    line-height: 90px;
     padding-top: 30px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
     text-shadow:3px 5px 5px rgba(54, 54, 54, 0.699);
     
 }
-#showcase h3{
+#showcase .h3{
     color: #fff;
     text-align: center;
-    font-size: 30px;
-    line-height: 1.6em;
-    font-weight: 100;
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: 100 !important;
+    font-family: 'Dosis';
 }
 #showcase>.container>#h11{
     text-transform: uppercase;
@@ -132,6 +133,7 @@ ul li{
 
 #big-image>.container>#h11{
     animation: maintxtanim ease 1 3s;
+    
     
     
    
@@ -570,12 +572,14 @@ font-size: 14px;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
   }
   ul{
     position: absolute;
     top: 80%;
     left: 0%;
     transform: translate(0%,-50%);
+    text-align: center;
   }
   nav{
       height: 100px;
@@ -602,6 +606,7 @@ font-size: 14px;
         top: 40%;
         left: 50%;
         transform: translate(-50%,-50%);
+        text-align: center;
       }
       ul{
         position: absolute;
@@ -609,6 +614,7 @@ font-size: 14px;
         left: 0%;
         transform: translate(0%,-50%);
         width: auto;
+        text-align: center;
 
       }
       nav{
