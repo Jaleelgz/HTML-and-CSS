@@ -25,3 +25,8 @@ Assignment 8 : https://jaleelgz.github.io/html-and-css/assignment8/
 
 
 Assignment 9 : https://jaleelgz.github.io/html-and-css/assignment9/
+
+
+                    ---PROJECTS---
+
+Project 1 : https://jaleelgz.github.io/html-and-css/project1/
