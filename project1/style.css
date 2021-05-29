@@ -472,6 +472,7 @@ ul li{
     overflow: hidden;
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
     
    
 }
@@ -490,15 +491,23 @@ ul li{
   font-weight: 300;
     line-height: 1.6em;
 }
+#spn{
+    width: 200px;
+    background-color: #3D566E;
+    margin: 0;
+}
 #wow{
     height: 50px;
     border: white 0.5px solid;
     margin-left: 5px;
     padding: 10px;
     overflow: hidden;
+    
 }
-#wow{
+#wow>i>span{
     font-weight: 200;
+    font-family: sans-serif;
+    margin-left: 5px;
     
 }
 
