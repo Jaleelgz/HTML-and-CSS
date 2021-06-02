@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+nav{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+#navlogo{
+    height: 30px;
+    background-image: url(../Images/default-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    float: left;
+    
+    
+}
+
+
+#navitems{
+    width: 70%;
+    float: right;
+    
+    text-align: right;
+    font-size: 25px;
+}
+#navitems>i{
+    padding: 0 5px;
+}
+
+
+/* Header image */
+
+.bimg{
+    background-image: url(../Images/2686700.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 715px;
+    background-position: center right;
+    display: flex;
+    align-items: center;
+    
+}
+.btxt{
+    width: 40%;
+    
+}
+.btxt>#h1{
+    font-size: 5.5rem;
+    font-weight: 900 !important;
+    font-family: Oswald,sans-serif !important;
+    color: hsl(29, 100%, 50%);
+}
+.btxt>p{
+    margin: 20px 0;
+    font-style: italic;
+font-weight: 600;
+font-size: 1rem;
+color :#555c66;
+font-family: 'Open Sans',sans-serif;
+
+}
+.btxt>div>input,.btxt>div>button{
+    height: 50px;
+    border: none;
+}
+.btxt>div>input{
+    width: 70%;
+    padding-left: 20px;
+}
+.btxt>div>button{
+    width: 30%;
+    background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
