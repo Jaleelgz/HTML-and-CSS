@@ -47,46 +47,168 @@ nav{
     background-image: url(../Images/2686700.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 715px;
-    background-position: center right;
+    max-height: 715px;
     display: flex;
     align-items: center;
-    
 }
 .btxt{
     width: 40%;
+    margin: 100px 0;
+    height: 100% !important;
+    
+    
+    
     
 }
 .btxt>#h1{
+    
     font-size: 5.5rem;
-    font-weight: 900 !important;
+    font-weight: 700 !important;
     font-family: Oswald,sans-serif !important;
     color: hsl(29, 100%, 50%);
+    
 }
 .btxt>p{
     margin: 20px 0;
     font-style: italic;
-font-weight: 600;
-font-size: 1rem;
-color :#555c66;
-font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6em;
+    color :#555c66;
+    font-family: 'Open Sans',sans-serif;
 
 }
 .btxt>div>input,.btxt>div>button{
     height: 50px;
     border: none;
+    margin-top: 10px;
 }
 .btxt>div>input{
-    width: 70%;
+   
     padding-left: 20px;
 }
 .btxt>div>button{
-    width: 30%;
+  
     background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
     color: aliceblue;
-    font-size: 20px;
     text-transform: uppercase;
 }
+
+/* Numbering boxes */
+.numberbox{
+    margin: 70px auto 70px auto;
+    background-color: aqua;
+    
+}
+.box{
+    color: white;
+    min-height: 350px;
+    
+    
+}
+#b1{
+    background-color: orangered;
+}
+#b2{
+    background-color: rgb(255, 38, 0);
+}
+#b3{
+    background-color: rgba(15, 15, 15, 0.897);
+}
+#b4{
+    background-color: rgb(71, 71, 71);
+}
+/* .box>.container{
+    margin: 20px 0;
+} */
+.bnumber{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px 0;
+    
+}
+.bhead{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.bdesc{
+    font-size: 20px;
+    
+    line-height: 1.3em;
+}
+.bmore{
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+
+
+/* Meadia Queries */
+
+ /* For mobile phones: */
+ @media only screen and (max-width:599px){
+    [class*="col-"] {
+    width: 100%;
+  }
+
+  .bimg{
+    background-position: 67.33% 50%;
+  }
+  .btxt>#h1{
+    font-size: 3.75rem;
+    
+  }
+}
+
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .bimg{
+        background-position: 66.8% 50%;
+
+    }
+    .btxt>h1{
+        font-size: 3.75rem;
+      }
+      .numberbox{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .numberbox{
+        display: flex;
+    }
+  } 
 
 
 
