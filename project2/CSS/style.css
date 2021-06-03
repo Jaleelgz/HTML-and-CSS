@@ -142,6 +142,92 @@ nav{
     font-size: 60px;
 }
 
+/* Sustainable Construction */
+
+.sustain{
+    min-height: 400px;
+    background-color: rgba(199, 197, 195, 0.486);
+    
+}
+.sustaincont{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.mar{
+    margin: auto;
+    text-align: center;
+}
+
+.sustain #shead{
+    font-size: 3em;
+    color: #ff6918;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    word-wrap: break-word;
+    margin: 20px 0;
+}
+#sdesc{
+    line-height: 1.6em;
+    font-size: 20px;
+    color: #555c66;
+}
+.sustain button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
+}
+
+/* OUR VISION */
+
+.vcontainer{
+    min-height: 550px;
+    background-color: #ff6918;
+    display: flex;
+    justify-content: center;
+}
+.mary{
+    
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+}
+#vtxt{
+    margin: 30px auto;
+    height: 400px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+#vimg1{
+    background-image: url(../Images/56.jpg);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+#vimg2{
+    background-image: url(../Images/dddd.jpg);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+#vimg3{
+    background-image: url(../Images/ccc.jpg);
+    background-size: cover;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   
+}
+
+
 
 
 /* Meadia Queries */
