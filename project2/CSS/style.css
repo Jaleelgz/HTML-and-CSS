@@ -464,7 +464,8 @@ margin: 10px 0;}
     height: 250px;
 }
 #tboxcont{height: 513px;}
-#aimg{margin-top: 40px;}
+#aimg{margin-top: 40px;
+    min-height: 500px;}
 #get>.container{
     text-align: center;
 }
