@@ -300,6 +300,113 @@ nav{
     background-position: 50% 50%;
     background-size: cover;
 }
+#threebox{
+    margin-top: -100px;
+}
+#threebox>.container{display: grid;
+grid-gap: 30px;
+margin-bottom: 100px;}
+#threebox .tbox{
+    background-color: white;
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 10px 50px;
+    
+
+}
+.tbox>.roundicon{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 50px;
+    background-color: #ff6918;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roundicon>.timg{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.roundicon>#timg1{background-image: url(../Images/building.png);}
+.roundicon>#timg2{background-image: url(../Images/plan.png);}
+.roundicon>#timg3{background-image: url(../Images/conversation.png);}
+.tbox>.thead{
+    margin: 10px auto;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.tbox>.tdesc{
+    margin: 10px auto 20px auto;
+    font-style: italic;
+}
+
+/* About */
+
+#aboutcont{
+    background-color: #70727436;
+}
+#aboutcont>.container{
+    padding: 70px 0px;
+}
+
+.container #line{height: 8px;
+width: 80px;
+background-color: #ff6918;}
+#aboutcont button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
+}
+
+#aimg{
+    background-image: url(../Images/fisheyeshotnewresitentialbuildings_97070952.jpg);
+    
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Get in touch */
+#get{
+    background-image: url(../Images/fvmin.jpg);
+    padding: 50px 0;
+}
+
+#get>.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 50px;
+    background-color: white;
+    padding: 20px;
+}
+#gtxt{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+#gtxt>#line{margin: 10px auto;}
+#ginput>input{height: 40px;}
+#ginput>.inputbox{width: 100%;
+padding-left: 10px;
+margin: 10px 0;}
+#ginput>textarea{padding-top: 10px;}
+#ginput>button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
+}
+
+.timingpart{margin: 30px 0;}
 
 
 
@@ -326,6 +433,7 @@ nav{
     height: 250px;
 }
 #tboxcont{height: 513px;}
+#aimg{margin-top: 40px;}
 
 }
 
@@ -359,6 +467,10 @@ nav{
     }
     #himg{min-height: 750px;}
     #tboxcont{height: 513px;}
+    #aimg{
+        margin-top: 40px;
+        min-height: 500px;
+    }
     
     
   }
@@ -417,6 +529,15 @@ nav{
     
     }
     #tboxcont{height: 613px;}
+    #threebox>.container{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    #aboutcont>.container{
+        padding: 70px 0px;
+        display: flex;
+    }
+    #aimg{min-height: 200px;}
     
   }
 
@@ -465,6 +586,14 @@ nav{
     
     }
     #tboxcont{height: 613px;}
+    #threebox>.container{
+        grid-template-columns: auto auto auto;
+    }
+    #aboutcont>.container{
+        padding: 70px 0px;
+        display: flex;
+    }
+    #aimg{min-height: 200px;}
   }
 
 
