@@ -4,6 +4,9 @@
     margin: 0;
 }
 body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
     
 }
 .container{
@@ -107,7 +110,7 @@ nav{
     
 }
 #b1{
-    background-color: orangered;
+    background-color: #ff6918;
 }
 #b2{
     background-color: rgb(255, 38, 0);
@@ -192,39 +195,103 @@ nav{
     justify-content: center;
 }
 .mary{
-    
-    background-color: aliceblue;
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 50% 50%;
+    background-color: aliceblue;
+    margin: 50px auto;
+    
 }
 #vtxt{
-    margin: 30px auto;
-    height: 400px;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    margin: 50px auto;
     
+}
+#vtxt1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.125rem;
+}
+#vtxt2{
+    font-family: Oswald,sans-serif !important;
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin-top: 6px;
+    color: #ff6918;
+}
+#vtxt3{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 1.125rem;
+
+}
+#vtxt4{
+    width: 120px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    border-bottom: solid 1px black;
+}
+.mary>.vimg{
+    background-size: cover;
+    background-position: 50% 50%;
+
 }
 #vimg1{
     background-image: url(../Images/56.jpg);
-    background-size: cover;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    
     
 }
 #vimg2{
     background-image: url(../Images/dddd.jpg);
-    background-size: cover;
-    grid-row-start: 1;
-    grid-row-end: 2;
     
 }
 #vimg3{
     background-image: url(../Images/ccc.jpg);
-    background-size: cover;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    
    
+}
+#vtxt>ul{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* Dream Home */
+#home>.container{
+    
+
+}
+#htxt{
+    
+}
+#himg{
+    background-image: url(../Images/OBC8MR0.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 30px 60px;
+    overflow: visible;
+    min-height: 450px;
+    
+}
+#homecont{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    opacity: 1;
+}
+#homecont>.container{
+    margin: 50px auto;
+    background-color: transparent !important;
+}
+#htxt>#sdesc{margin: 20px 0 30px 0;}
+#htxt>button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(-90deg,rgb(246, 122, 6),rgb(240, 62, 7));
+
 }
 
 
@@ -235,7 +302,7 @@ nav{
  /* For mobile phones: */
  @media only screen and (max-width:599px){
     [class*="col-"] {
-    width: 100%;
+    width: 100% !important;
   }
 
   .bimg{
@@ -245,6 +312,12 @@ nav{
     font-size: 3.75rem;
     
   }
+  #vimg1{
+      height: 500px;
+  }
+  #vimg2,#vimg3{
+    height: 250px;
+}
 }
 
   
@@ -274,6 +347,33 @@ nav{
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
     }
+    .mary{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto 400px 400px;
+    }
+    .mary>#vtxt{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+        .mary>#vimg1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+    }
+    .mary>#vimg2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .mary>#vimg3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+    #himg{min-height: 400px;}
+    #home>.container{
+        display: flex;
+    
+    }
     
   }
   
@@ -294,6 +394,30 @@ nav{
     .numberbox{
         display: flex;
     }
+    .mary{
+      
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: 50% 50%;
+    }
+    .mary>#vtxt,.mary>#vimg1{
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+    }
+    .mary>#vimg2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .mary>#vimg3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    #himg{min-height: 750px;}
   } 
 
 
