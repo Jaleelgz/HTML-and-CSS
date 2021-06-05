@@ -30,3 +30,6 @@ Assignment 9 : https://jaleelgz.github.io/html-and-css/assignment9/
                     ---PROJECTS---
 
 Project 1 : https://jaleelgz.github.io/html-and-css/project1/
+
+
+Project 2 : https://jaleelgz.github.io/html-and-css/project2/
