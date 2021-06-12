@@ -1,0 +1,12 @@
+@media only screen and (max-width: 599px) {
+
+    header #navbarSupportedContent{
+        margin-left: -50%;
+       
+    }
+    ul{
+        
+        margin: auto;
+
+    }
+}
