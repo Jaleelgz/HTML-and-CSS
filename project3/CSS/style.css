@@ -1,7 +1,7 @@
 
 header #navbarSupportedContent{
-    display: grid !important;
-    justify-content: end !important;
+    display: grid ;
+    justify-content: end ;
     
    
 }
