@@ -1,15 +1,12 @@
 
-header #navbarSupportedContent{
-    display: grid ;
-    justify-content: end ;
-    
-   
+ul{
+    width: 100%;
+    display: grid;
+    justify-content: right;
 }
 
 @media only screen and (max-width: 599px) {
-    header{
-        padding-right: 20px;
-    }
+    
     ul{
         
         margin-left: -50px !important;
