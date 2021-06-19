@@ -1,3 +1,19 @@
-body{
-    background-color: aquamarine;
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #37517e;
+}
+header .h25{
+    height: 400px;
+}
+
+header .h25 .h-100{
+    background-image: url(../img/hero-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row>button{
+
 }
